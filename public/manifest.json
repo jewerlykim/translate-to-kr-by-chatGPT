@@ -4,7 +4,7 @@
   "manifest_version": 3,
   "version": "0.1",
   "description": "Translate Kr by GPT",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "management"],
   "background": {
     "service_worker": "background.js",
     "type": "module"
